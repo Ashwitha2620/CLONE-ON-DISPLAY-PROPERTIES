@@ -1,175 +1,75 @@
-header
-{
-	border: 1px solid black;
-	background-color: #7f8274;
-	border-color:#7f8274 ;
-	color: whitesmoke;
-	margin: 0px;
-	padding: 20px;
-	font-size: 30px;
-	font-style: Georgia;
+header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #343a40;
+    
 }
-[href*="1"]
-{
-	color: whitesmoke;
+.menus {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    list-style: none;
 }
 
-section,div
-{
-	display: grid;
-	grid-template-columns: 30% 70%;
+.menuname{
+    color: whitesmoke;
 }
 
-div
+.secondlink{
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    list-style: none;
+    color: black;
+    padding-top: 5px;
+    font-size: large ;
+}
+.services:hover
 {
-	display: grid;
-	grid-template-columns: repeat(7 , 1fr);
+    color: black;
+    border: 1px solid pink;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: pink;
 }
 
 
-.service:hover
-{
-	color: black;
-	border: 1px solid palevioletred;
-	background-color: palevioletred;
-	border-radius: 30px;
-	padding: 10px;
-	color: black;
-	
+a {
+    text-decoration: none;
+    
+    
 }
-
-article:hover
+.images
 {
-
-	border: 1px solid white;
-	margin: 2px;
+    
+    width: 200;
+    height: 300px;
+    border: 5px solid white;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
-.facility
+#gridimages
 {
-
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	list-style: none;
-	font-size: larger;
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr);
+    border: 3px solid white;
+    width: 100%;
 }
-
-.row1
-{
-	border: 2px solid white;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);	
-}
-.image1
-{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	
-	width: 50vh;
-	height: 300px;
-	border: 20px solid white;
-	margin: 20px;
-	padding: 20px;
-	padding-left: 40px;
-}
-.row2
-{
-	border: 2px solid white;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);	
-}
-.image2
-{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	
-	width: 50vh;
-	height: 300px;
-	border: 20px solid white;
-	margin: 20px;
-	padding: 20px;
-	padding-left: 40px;
-}
-.row3
-{
-	border: 2px solid white;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);	
-}
-.image3
-{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	
-	width: 50vh;
-	height: 300px;
-	border: 20px solid white;
-	margin: 20px;
-	padding: 20px;
-	padding-left: 40px;
-}
-.row4
-{
-	border: 2px solid white;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);	
-}
-.image4
-{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	
-	width: 50vh;
-	height: 300px;
-	border: 20px solid white;
-	margin: 20px;
-	padding: 20px;
-	padding-left: 40px;
-}
-
 
 footer
 {
-	background-image: url("https://i.pinimg.com/originals/55/a9/f7/55a9f721ceed01c53ce085476b468454.jpg");	
-	background-size: 100%;
+    background-image: url("https://i.pinimg.com/originals/55/a9/f7/55a9f721ceed01c53ce085476b468454.jpg");	
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
 }
-
-.content
+li
 {
-	background-image: url("https://i.pinimg.com/originals/55/a9/f7/55a9f721ceed01c53ce085476b468454.jpg");	
-	background-size: 100%;
-	background-color: #7f8274;
-	border-color:#7f8274 ;
-	color: whitesmoke;
-	height: 370px;
-	color: black;
-	display:grid ;
-	text-decoration: none;
-	grid-template-columns: repeat(4, 1fr);
-	font-size: 20px;
+    list-style: none;
 }
-
-.foothead
-{
-	
-	font-size: large;
+.copyright{
+    padding-left: 70px;
 }
-a{
-	text-decoration: none;
-
-}
-
-.footlist
-{
-	list-style: none;
-	font-style: none;
-	text-decoration: none;
-}
-.copyroght
-{
-	text-align: center;
-	padding-left: 750px;
-	font-size: large;
-}
-
-
 
